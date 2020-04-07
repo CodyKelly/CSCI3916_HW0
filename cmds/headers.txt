@@ -1,0 +1,9 @@
+Request header:
+Accept: Tells the server what kinds of responses we can Accept
+
+Response headers:
+expires: Tells us when the response is considered stale
+Date: When the response was sent
+etag: Indicates a resource version
+vary: Determines if we have to make a new request in the future or just use the cached version
+server: gives us info on how the server handles requests
